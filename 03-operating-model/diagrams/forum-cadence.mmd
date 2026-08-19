@@ -1,0 +1,19 @@
+%% Rafid Health Cluster — Phase 3 forum cadence
+%% Four approved cadences. No per-hospital board.
+%% Fictional organization [A]. Operating design [B].
+
+flowchart LR
+  subgraph formal["Formal forums"]
+    DMC["Data Management Committee<br/>Quarterly + extraordinary<br/>Chair: Cluster CEO"]
+    SF["Steward Forum<br/>Monthly<br/>Chair: Data Governance Officer"]
+  end
+
+  subgraph operating["Operating cadences"]
+    DH["Domain huddles<br/>Biweekly or monthly by risk<br/>Owner + Steward + Custodian"]
+    DMO["DMO operations huddle<br/>Weekly<br/>Triage only - no policy"]
+  end
+
+  DMO -->|"escalated themes"| SF
+  DMO -->|"material / policy items"| DMC
+  DH -->|"cross-domain clashes"| SF
+  SF -->|"policy or residual risk"| DMC

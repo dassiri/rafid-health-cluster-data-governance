@@ -1,0 +1,30 @@
+%% Rafid Health Cluster — Phase 3 escalation hierarchy
+%% Fictional organization [A]. Operating design [B].
+
+flowchart TD
+  subgraph operational["Operational"]
+    BDS["Business Data Steward"] --> DO["Data Owner"]
+  end
+
+  subgraph tactical["Tactical"]
+    DGO["Data Governance Officer"] --> CDO["Chief Data Officer"]
+  end
+
+  subgraph strategic["Strategic"]
+    DMC["Data Management Committee"]
+  end
+
+  subgraph executive["Executive"]
+    CEO["Cluster CEO<br/>Executive Sponsor"]
+  end
+
+  DO -->|"cross-domain, SLA breach,<br/>or Owner conflict"| DGO
+  CDO -->|"policy, residual risk,<br/>or material exception"| DMC
+  DMC -->|"unresolved or entity risk"| CEO
+
+  REG["Regulatory / compliance<br/>parallel notify: PDPO + CO + Legal"]
+  REG -->|"CDO coordinates work"| CDO
+  REG -->|"material cases"| CEO
+
+  CISO["Cybersecurity incident<br/>CISO / NCA path in parallel"]
+  CISO -.-> CDO

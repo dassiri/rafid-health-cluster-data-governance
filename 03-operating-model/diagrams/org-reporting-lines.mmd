@@ -1,0 +1,24 @@
+%% Rafid Health Cluster — Phase 3 reporting lines
+%% Solid arrows = line management. Dotted arrows = working relationship only.
+%% Fictional organization [A]. Design choice [B]. Not an NDMO org-chart mandate.
+
+flowchart TB
+  CEO["Cluster CEO<br/>Executive Sponsor"]
+
+  subgraph peers["Peers reporting to CEO"]
+    CDO["Chief Data Officer"]
+    CIO["CIO / CDIO<br/>peer of CDO"]
+    PDPO["Personal Data Protection Officer"]
+  end
+
+  DGO["Data Governance Officer<br/>Data Management Office"]
+  LIC["Legal / Internal Control"]
+  CO["Compliance Officer<br/>(data management agenda)"]
+
+  CEO -->|solid| CDO
+  CEO -->|solid| CIO
+  CEO -->|solid| PDPO
+  CDO -->|solid| DGO
+  LIC -->|solid| CO
+  PDPO -.->|dotted working relationship| CDO
+  CO -.->|dotted working relationship| CDO

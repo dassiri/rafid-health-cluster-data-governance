@@ -137,6 +137,16 @@ Specific lineage requirements remain `[NDMO verification required]`. General gov
 
 ---
 
+## Working pack (applied records)
+
+Locked Phase 9 files above are unchanged. Applied working records (13-row lineage register, business and conceptual examples, selective field-level hops, quality checks, catalog back-references) live in:
+
+**[`working-pack/`](working-pack/)**
+
+The working pack does **not** replace this phase. It does **not** add CDEs. It does **not** expand the catalog MVP beyond the three approved domains. It is synthetic / illustrative / non-production.
+
+---
+
 ## Boundary with Phase 10
 
 Phase 10 conceptual MDM lives in `10-master-data-management/`. This Phase 9 folder was **not** redesigned. Master-data **dependency** remains a lineage criticality criterion. Phase 10 does **not** implement a matching engine or hub. Phase 11 conceptual lifecycle lives in `11-data-lifecycle/` and does **not** redesign this folder.
@@ -165,3 +175,4 @@ Phase 10 conceptual MDM lives in `10-master-data-management/`. This Phase 9 fold
 | [16-lineage-mvp.md](16-lineage-mvp.md) | RHC-DG-P9-016 |
 | [17-interview-defensibility.md](17-interview-defensibility.md) | RHC-DG-P9-017 |
 | [18-ndmo-alignment.md](18-ndmo-alignment.md) | RHC-DG-P9-018 |
+| [working-pack/](working-pack/) | RHC-DG-P9-WP-* (applied working pack) |

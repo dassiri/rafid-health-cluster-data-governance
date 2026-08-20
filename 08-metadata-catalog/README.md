@@ -167,6 +167,16 @@ Specific NDMO metadata fields, categories, and control-level catalog requirement
 
 ---
 
+## Working pack (applied records)
+
+Locked Phase 8 files above are unchanged. Applied working records (minimum metadata CSV, 25-term glossary, 20-asset inventory, 13-step registration path, MVP checklist, eight sample catalog pages) live in:
+
+**[`working-pack/`](working-pack/)**
+
+The working pack does **not** replace this phase. It does **not** add CDEs. It does **not** expand the catalog MVP beyond the three approved domains. It is synthetic / illustrative / non-production.
+
+---
+
 ## Files
 
 | Path | ID |
@@ -188,3 +198,4 @@ Specific NDMO metadata fields, categories, and control-level catalog requirement
 | [15-governance-artifacts.md](15-governance-artifacts.md) | RHC-DG-P8-015 |
 | [16-interview-defensibility.md](16-interview-defensibility.md) | RHC-DG-P8-016 |
 | [17-ndmo-alignment.md](17-ndmo-alignment.md) | RHC-DG-P8-017 |
+| [working-pack/](working-pack/) | RHC-DG-P8-WP-* (applied working pack) |

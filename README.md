@@ -94,7 +94,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | Data Classification | Four-tier Rafid classification proposal |
 | Policies & Standards | 1 Policy + 5 Standards + 6 Procedures |
 | Data Quality | 7 dimensions, CDE methodology, rules, issues, monitoring |
-| Metadata & Catalog | Metadata model, minimum metadata, glossary, catalog MVP |
+| Metadata & Catalog | Metadata model, minimum metadata, glossary, catalog MVP, plus an applied [working pack](08-metadata-catalog/working-pack/) (inventory, field model, sample catalog pages) |
 | Data Lineage | Business/conceptual lineage and selective technical lineage |
 | Master Data Management | Master/reference/transaction model, golden record, matching, survivorship |
 | Data Lifecycle | Retention governance, archiving, disposal, legal holds |
@@ -128,13 +128,14 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 
 ## Practical Evidence `[A]`
 
-A small **illustrative** layer in [`assets/practical-evidence/`](assets/practical-evidence/) shows how selected designs could be applied to **synthetic** data:
+A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). The applied Metadata Management working pack sits under Phase 8.
 
 | Example | File |
 | --- | --- |
 | Data quality (sample → rules → issues → result) | [01-data-quality-example.md](assets/practical-evidence/01-data-quality-example.md) |
 | Catalog sample (15 assets) | [02-catalog-sample.md](assets/practical-evidence/02-catalog-sample.md) |
 | Business glossary sample (15 terms) | [03-business-glossary-sample.md](assets/practical-evidence/03-business-glossary-sample.md) |
+| Metadata Management working pack | [08-metadata-catalog/working-pack/](08-metadata-catalog/working-pack/) |
 | MDM golden record (patient identity) | [04-mdm-golden-record-example.md](assets/practical-evidence/04-mdm-golden-record-example.md) |
 | Conceptual lineage (registration → dashboard) | [05-lineage-example.md](assets/practical-evidence/05-lineage-example.md) |
 
@@ -207,6 +208,7 @@ rafid-health-cluster-data-governance/
 ├── 06-policies-standards-procedures/
 ├── 07-data-quality/
 ├── 08-metadata-catalog/
+│   └── working-pack/          # applied glossary, inventory, catalog samples
 ├── 09-data-lineage/
 ├── 10-master-data-management/
 ├── 11-data-lifecycle/

@@ -1,0 +1,25 @@
+Field_Name,Description,Metadata_Category,Data_Type,Occupancy,Required_When,Example,Responsible_Role
+Asset ID,Stable Rafid identifier for the catalog record. Not an NDMO control ID.,Governance,String,Required,Always,META-PAT-003,DMO (ID method); Steward assigns on register
+Asset Name,Business-usable name of the asset or element.,Business,String,Required,Always,Patient_ID,Business Data Steward (draft); Data Owner (accepts)
+Asset Type,Year-1 catalog type plus Data Element for teaching rows in this pack.,Technical,String,Optional,Filled in all working-pack rows; Phase 8 treats as Recommended for publish,Data Element,Business Data Steward; Custodian consulted
+Business Domain,One of the eight Phase 4 ownership domains.,Governance,String,Required,Always,Patient / Person Master Data,Data Owner (domain assignment); Steward records
+Business Definition,Owner-accepted meaning in business language.,Business,Text,Required,Always,The cluster patient identifier (MRN) used to locate the person in operational systems.,Data Owner accountable; Steward responsible
+Business Owner,Phase 4 Data Owner title.,Governance,String,Required,Always,Patient Access & Experience Director,Assigned at domain level (Phase 4)
+Business Data Steward,Phase 4 appointed steward title for the domain.,Governance,String,Required,Always,Head of Patient Registration & Access,Nominated by Data Owner; recorded by DMO
+Source System,Primary or authoritative system context where one applies.,Technical,String,Required,Always,Registration / MPI (SYN-REG),IT / Data Custodian (technical); Steward records
+Source Dataset,Parent dataset or master entity for a table or element.,Technical,String,Conditional,Asset Type is Table or Data Element,Patient Registration Dataset (META-PAT-002),Business Data Steward
+Database / Schema,Illustrative technical location. Not a live schema.,Technical,String,Optional,When known,mpi.patient,IT / Data Custodian
+Table,Illustrative table or object name inside the asset.,Technical,String,Conditional,Asset Type is Table or Data Element,patient_master,IT / Data Custodian
+Column,Illustrative column name.,Technical,String,Conditional,Asset Type is Data Element,patient_id,IT / Data Custodian
+Data Type,Logical type of the element.,Technical,String,Conditional,Asset Type is Data Element,String,IT / Data Custodian
+Classification,"Rafid working tier (Public / Internal / Confidential / Restricted). Not an NDMO national tier.",Governance,String,Required,Always,Restricted,Data Owner accountable; Steward prepares pack
+Criticality,"Working High / Medium / Low for catalog attention. Not a numeric CDE rank.",Governance,String,Optional,When useful for prioritization,High,Data Owner accepts; Steward proposes
+CDE Status,Whether the element is one of the 13 catalogue CDEs a watch-item or neither.,Governance,String,Conditional,Asset Type is Data Element,Yes — CDE-002,Data Owner confirms CDEs; Steward records
+Business Rules,Short Owner-relevant constraint. Not a Phase 7 rule engine.,Business,Text,Optional,When a useful constraint exists,Must be unique in the governed person population.,Data Owner accountable; Steward responsible
+Data Quality Status,Whether Phase 7 quality design applies. Not a measured Rafid score.,Data Quality,String,Conditional,Asset is a CDE or contains confirmed CDEs,CDE — quality rules designed (Phase 7),Business Data Steward monitors; Data Owner owns outcomes
+Refresh Frequency,Governance-level statement of how often the dataset is expected to change. Not an SLA number.,Operational,String,Conditional,Useful frequency is known for a Dataset,Event-driven (registration create/update),IT / Data Custodian; Steward records
+Lifecycle Status,Operational catalog state (Draft / Active / Deprecated / Retired).,Governance,String,Required,Always,Active,Business Data Steward; Owner for Deprecated or Retired
+Approval Status,Workflow state (Pending Steward Validation / Pending Owner Approval / Pending DMO Check / Approved / Returned).,Governance,String,Required,Always,Approved,Steward then Data Owner then DMO check
+Last Reviewed,Date the Owner or Steward last confirmed the record.,Operational,Date,Optional,When a review has occurred,2026-08-01,Business Data Steward
+Related Business Terms,Glossary terms that the asset uses or represents.,Business,String,Optional,When glossary links exist,Patient ID; Patient,Business Data Steward
+Lineage Reference,Coarse pointer to conceptual lineage. Not automated column-level lineage.,Governance,String,Conditional,MVP Dataset or Master Data Entity rows,LIN-REG-PAT-001,Business Data Steward; detail remains Phase 9

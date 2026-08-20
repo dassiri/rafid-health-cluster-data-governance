@@ -171,6 +171,8 @@ Steward column uses **only** “Business Data Steward”. Owner titles are Phase
 
 **Count:** seven terms. No additional official glossary terms in this drop.
 
+A recruiter-facing **sample set of 15 terms** (these seven plus related terms, still `[A]`, still no extra CDEs) is in [`../../assets/practical-evidence/03-business-glossary-sample.md`](../../assets/practical-evidence/03-business-glossary-sample.md). It does **not** replace this file.
+
 ---
 
 ## 5. Sources

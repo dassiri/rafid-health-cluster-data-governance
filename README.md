@@ -2,15 +2,70 @@
 
 A portfolio-grade Data Governance and Data Management framework designed for a fictional Saudi healthcare cluster, covering governance strategy, operating model, ownership, classification, data quality, metadata, lineage, MDM, lifecycle management, KPIs, implementation roadmap, and NDMO alignment.
 
+Rafid Health Cluster is **fictional**. This is a **portfolio design exercise**, not a software product, not a live implementation, and **not an NDMO compliance claim**.
+
+---
+
+## Portfolio Quick View
+
+Use this if you are reviewing as a recruiter or hiring manager.
+
+### 5-Minute Review
+
+1. [Governance Strategy](02-governance-strategy/)
+2. [Operating Model](03-operating-model/)
+3. [Data Quality](07-data-quality/)
+4. [Metadata & Data Catalog](08-metadata-catalog/)
+5. [NDMO Alignment](14-ndmo-alignment/)
+
+Optional: [Practical evidence samples](assets/practical-evidence/) (synthetic examples only).
+
+### 15-Minute Review
+
+1. [Project Foundation](01-project-foundation/)
+2. [Governance Strategy](02-governance-strategy/)
+3. [Operating Model](03-operating-model/)
+4. [Ownership & Stewardship](04-ownership-stewardship/)
+5. [Classification](05-data-classification/)
+6. [Data Quality](07-data-quality/)
+7. [Metadata & Catalog](08-metadata-catalog/)
+8. [Lineage](09-data-lineage/)
+9. [MDM](10-master-data-management/)
+10. [NDMO Alignment](14-ndmo-alignment/)
+
+### Deep Dive
+
+The complete framework is organized across **Phases 0–14** (folders `01`–`14`). Interview notes are **internal** and are indexed in [`docs/interview-preparation.md`](docs/interview-preparation.md).
+
 ---
 
 ## Project Overview
 
-Rafid Health Cluster is a **fictional** Saudi healthcare delivery organization used as a case for this portfolio.
+This repository documents how an enterprise Data Governance function **could be designed** for a fictional Saudi healthcare cluster. It demonstrates connected decisions across operating model, ownership, classification, quality, metadata, lineage, MDM, lifecycle, measurement, and implementation planning.
 
-The project simulates how an enterprise Data Governance function could be designed in a Saudi healthcare environment. It is a **governance and documentation exercise**, not a software platform and not a live implementation.
+Healthcare is used because it supplies realistic examples of sensitive data, master identity, lineage, quality, lifecycle, and regulatory overlay — without treating Rafid as a real organization.
 
-Healthcare was selected because it provides realistic examples of sensitive data, ownership, master data, lineage, quality, lifecycle, and regulatory considerations.
+The work product is **governed operating design** (strategy, RACI, policies, and capability frameworks). It is **not** a platform build and **not** production evidence.
+
+---
+
+## What This Project Demonstrates
+
+- Data Governance Operating Model Design
+- Data Ownership & Stewardship
+- Data Classification
+- Policy & Standards Architecture
+- Data Quality Governance
+- Metadata Management
+- Business Glossary Design
+- Data Catalog Design
+- Data Lineage Governance
+- Master Data Management
+- Data Lifecycle Governance
+- Governance KPIs
+- Data Maturity Assessment (method only; no Rafid score)
+- Implementation Planning (illustrative)
+- NDMO Alignment & Evidence Design
 
 ---
 
@@ -71,6 +126,22 @@ Healthcare was selected because it provides realistic examples of sensitive data
 
 ---
 
+## Practical Evidence `[A]`
+
+A small **illustrative** layer in [`assets/practical-evidence/`](assets/practical-evidence/) shows how selected designs could be applied to **synthetic** data:
+
+| Example | File |
+| --- | --- |
+| Data quality (sample → rules → issues → result) | [01-data-quality-example.md](assets/practical-evidence/01-data-quality-example.md) |
+| Catalog sample (15 assets) | [02-catalog-sample.md](assets/practical-evidence/02-catalog-sample.md) |
+| Business glossary sample (15 terms) | [03-business-glossary-sample.md](assets/practical-evidence/03-business-glossary-sample.md) |
+| MDM golden record (patient identity) | [04-mdm-golden-record-example.md](assets/practical-evidence/04-mdm-golden-record-example.md) |
+| Conceptual lineage (registration → dashboard) | [05-lineage-example.md](assets/practical-evidence/05-lineage-example.md) |
+
+These examples are **not** operational evidence, **not** measured Rafid performance, and **not** NDMO compliance evidence.
+
+---
+
 ## Key Design Decisions
 
 - Federated-by-domain governance model.
@@ -84,6 +155,7 @@ Healthcare was selected because it provides realistic examples of sensitive data
 - Technical lineage remains conceptual.
 - Retention periods are not invented and remain verification placeholders where required.
 - KPIs and roadmap figures are illustrative rather than measured Rafid performance.
+- The Phase 13 roadmap is not a live implementation plan, not an NDMO-required sequence, and not evidence of implementation.
 
 ---
 
@@ -120,8 +192,6 @@ Control/specification-level verification remains open where the official source 
 - NDMO compliance: Not claimed
 - Rafid Health Cluster: Fictional portfolio organization
 
-The Phase 13 roadmap is `[A]` illustrative. It is not an actual organizational implementation plan, not an NDMO-required sequence, and not evidence of implementation or compliance.
-
 ---
 
 ## Repository Structure
@@ -144,6 +214,7 @@ rafid-health-cluster-data-governance/
 ├── 13-implementation-roadmap/
 ├── 14-ndmo-alignment/
 ├── assets/
+│   └── practical-evidence/
 └── docs/
 ```
 
@@ -155,10 +226,11 @@ rafid-health-cluster-data-governance/
 2. Review Phase 3–5 for governance structure, ownership, and classification.
 3. Review Phase 6 for the policy/standard/procedure architecture.
 4. Review Phase 7–11 for the core Data Management capabilities.
-5. Review Phase 12–13 for measurement and implementation.
-6. Finish with Phase 14 for NDMO alignment and designed evidence.
+5. Optionally open [`assets/practical-evidence/`](assets/practical-evidence/) for synthetic worked examples.
+6. Review Phase 12–13 for measurement and illustrative implementation planning.
+7. Finish with Phase 14 for NDMO alignment and designed evidence.
 
-Interview notes in later phases are **internal** preparation, not policy.
+Interview notes are **Internal Interview Preparation**, not policy. Start at [`docs/interview-preparation.md`](docs/interview-preparation.md).
 
 ---
 
@@ -174,6 +246,7 @@ Interviewers should distinguish between the project's designed artifacts and act
 
 - Rafid Health Cluster is fictional.
 - Illustrative metrics, thresholds, classifications, examples, and roadmap assumptions are not live organizational data.
+- Practical evidence files use synthetic identifiers only.
 - Some NDMO details remain subject to official-source verification.
 - Sector-specific legal/regulatory requirements are not presented as verified unless explicitly labeled.
 - No production technology platform has been implemented.

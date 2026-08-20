@@ -1,16 +1,39 @@
 # Interview Preparation
 
+**INTERNAL / INTERVIEW PREPARATION**
+
+This file is **not** an organizational policy, Standard, or NDMO artifact.
+
 **Document ID:** RHC-DG-DOC-001  
 **Audience:** Candidate using this repository in a Data Governance interview  
 **Status:** Phases 0–14: Designed / Documented. Operational implementation = Not claimed. Measured performance = Not claimed. NDMO compliance = Not claimed. Phase 14 is the final alignment/evidence phase.
 
 **Labels used:** `[A]` Fictional assumption · `[B]` Industry best practice · `[C]` NDMO-supported · `[NDMO verification required]` · `[Legal / regulatory verification required]`
 
+Phase-specific interview notes remain **in their phase folders** (not moved) so existing links stay valid. They are internal preparation, not policy.
+
+| Phase | Internal notes |
+| --- | --- |
+| 3 | [`../03-operating-model/08-interview-defensibility-notes.md`](../03-operating-model/08-interview-defensibility-notes.md) |
+| 4 | [`../04-ownership-stewardship/09-interview-defensibility.md`](../04-ownership-stewardship/09-interview-defensibility.md) |
+| 5 | [`../05-data-classification/11-interview-defensibility.md`](../05-data-classification/11-interview-defensibility.md) |
+| 6 | [`../06-policies-standards-procedures/interview-preparation.md`](../06-policies-standards-procedures/interview-preparation.md) |
+| 7 | [`../07-data-quality/16-interview-defensibility.md`](../07-data-quality/16-interview-defensibility.md) |
+| 8 | [`../08-metadata-catalog/16-interview-defensibility.md`](../08-metadata-catalog/16-interview-defensibility.md) |
+| 9 | [`../09-data-lineage/17-interview-defensibility.md`](../09-data-lineage/17-interview-defensibility.md) |
+| 10 | [`../10-master-data-management/18-interview-defensibility.md`](../10-master-data-management/18-interview-defensibility.md) |
+| 11 | [`../11-data-lifecycle/23-interview-defensibility.md`](../11-data-lifecycle/23-interview-defensibility.md) |
+| 12 | [`../12-kpis-maturity/27-interview-defensibility.md`](../12-kpis-maturity/27-interview-defensibility.md) |
+| 13 | [`../13-implementation-roadmap/22-interview-defensibility.md`](../13-implementation-roadmap/22-interview-defensibility.md) |
+| 14 | [`../14-ndmo-alignment/19-interview-defensibility.md`](../14-ndmo-alignment/19-interview-defensibility.md) |
+
+Synthetic worked examples: [`../assets/practical-evidence/`](../assets/practical-evidence/).
+
 ---
 
 ## 1. How to introduce the project (30 seconds)
 
-> “This is an enterprise data governance **framework** for a fictional Saudi MOH health cluster, Rafid Health Cluster. It is not a software build. I documented Phase 0–12: foundation through Policy/Standards/Procedures, quality, catalog, lineage, conceptual MDM, conceptual data lifecycle, and conceptual KPIs/maturity. I label assumptions versus NDMO. I do not claim compliance, I do not invent control numbers or retention periods, and I do not present KPI values or maturity levels as real Rafid data.”
+> “This is an enterprise data governance **framework** for a fictional Saudi MOH health cluster, Rafid Health Cluster. It is not a software build. I documented Phases 0–14: foundation through policy, quality, catalog, lineage, conceptual MDM, lifecycle, KPIs/maturity, an illustrative roadmap, and NDMO alignment. I label assumptions versus NDMO. I do not claim compliance, I do not invent control numbers or retention periods, and I do not present KPI values or maturity levels as real Rafid data.”
 
 ---
 
@@ -19,7 +42,7 @@
 | Question | Answer to give |
 | --- | --- |
 | What is the organization? | Fictional public healthcare cluster `[A]`; modeled as holding government and personal health data. |
-| What did you deliver? | Through Phase 12: Policy stack, ownership, classification, quality, conceptual catalog, conceptual lineage, conceptual MDM, conceptual data lifecycle, and conceptual KPIs/maturity (12 executive KPIs; five-level model; `DG-KPI-00n` is not an NDMO ID). |
+| What did you deliver? | Through Phase 14: Policy stack, ownership, classification, quality, conceptual catalog, conceptual lineage, conceptual MDM, conceptual data lifecycle, conceptual KPIs/maturity, an `[A]` illustrative roadmap, and an NDMO alignment/evidence pack. `DG-KPI-00n` is not an NDMO ID. |
 | What did you refuse to fake? | Compliance scores, NDMO national classification names, catalog/MDM/lineage/archive/dashboard tools, invented NDMO IDs, match-score thresholds, one physical MDM database, automatic classification inheritance, invented retention periods or healthcare legal clocks, live KPI values, and a claimed Rafid maturity level. |
 | What are Rafid classification tiers? | Public, Internal, Confidential, Restricted `[A][B]` — **not** NDMO national tiers `[NDMO verification required]`. |
 | What is the operating model? | Federated **by data domain** `[B]`. CDO reports to CEO; CIO is a peer. Eight domain Owners are assigned in Phase 4 (titles, not people). |
@@ -60,8 +83,11 @@
 12. [`../08-metadata-catalog/README.md`](../08-metadata-catalog/README.md) — conceptual catalog. Use [`../08-metadata-catalog/16-interview-defensibility.md`](../08-metadata-catalog/16-interview-defensibility.md) as **internal** notes.
 13. [`../09-data-lineage/README.md`](../09-data-lineage/README.md) — lineage framework. Use [`../09-data-lineage/17-interview-defensibility.md`](../09-data-lineage/17-interview-defensibility.md) as **internal** notes.
 14. [`../10-master-data-management/README.md`](../10-master-data-management/README.md) — conceptual MDM. Use [`../10-master-data-management/18-interview-defensibility.md`](../10-master-data-management/18-interview-defensibility.md) as **internal** notes.
-
-Folders `11`–`14` are the honest next-phase backlog.
+15. [`../11-data-lifecycle/README.md`](../11-data-lifecycle/README.md) — conceptual lifecycle. Use [`../11-data-lifecycle/23-interview-defensibility.md`](../11-data-lifecycle/23-interview-defensibility.md) as **internal** notes.
+16. [`../12-kpis-maturity/README.md`](../12-kpis-maturity/README.md) — conceptual KPIs/maturity. Use [`../12-kpis-maturity/27-interview-defensibility.md`](../12-kpis-maturity/27-interview-defensibility.md) as **internal** notes.
+17. [`../13-implementation-roadmap/README.md`](../13-implementation-roadmap/README.md) — `[A]` illustrative roadmap. Use [`../13-implementation-roadmap/22-interview-defensibility.md`](../13-implementation-roadmap/22-interview-defensibility.md) as **internal** notes.
+18. [`../14-ndmo-alignment/README.md`](../14-ndmo-alignment/README.md) — alignment pack. Use [`../14-ndmo-alignment/19-interview-defensibility.md`](../14-ndmo-alignment/19-interview-defensibility.md) as **internal** notes.
+19. [`../assets/practical-evidence/`](../assets/practical-evidence/) — synthetic examples only (`[A]`).
 
 ---
 

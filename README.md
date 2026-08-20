@@ -66,6 +66,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 - Data Maturity Assessment (method only; no Rafid score)
 - Implementation Planning (illustrative)
 - NDMO Alignment & Evidence Design
+- Compliance & Risk mapping (conceptual NDMO/PDPL inputs; no compliance claim)
 
 ---
 
@@ -100,7 +101,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | Data Lifecycle | Retention governance, archiving, disposal, legal holds |
 | KPIs & Maturity | KPI framework and five-level maturity model |
 | Implementation Roadmap | Illustrative three-year implementation roadmap |
-| NDMO Alignment | Domain mapping, evidence design, verification/gap register |
+| NDMO Alignment | Domain mapping, evidence design, verification/gap register, plus an applied [Compliance & Risk working pack](14-ndmo-alignment/working-pack/) (project evidence states, PDPL governance considerations, governance risk register) |
 
 ---
 
@@ -122,13 +123,13 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | 11 | Data lifecycle — Create→Dispose governance; no invented retention periods | [11-data-lifecycle](11-data-lifecycle/) |
 | 12 | KPIs and maturity — twelve executive KPIs and a five-level maturity model | [12-kpis-maturity](12-kpis-maturity/) |
 | 13 | Implementation roadmap — `[A]` illustrative three-year shape; not a live transformation plan | [13-implementation-roadmap](13-implementation-roadmap/) |
-| 14 | NDMO alignment and evidence — designed evidence pack; final phase; not a compliance certification | [14-ndmo-alignment](14-ndmo-alignment/) |
+| 14 | NDMO alignment and evidence — designed evidence pack plus applied [Compliance & Risk working pack](14-ndmo-alignment/working-pack/); final phase; not a compliance certification | [14-ndmo-alignment](14-ndmo-alignment/) |
 
 ---
 
 ## Practical Evidence `[A]`
 
-A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). Applied working packs sit under Phase 8 (metadata/catalog) and Phase 9 (lineage).
+A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). Applied working packs sit under Phase 8 (metadata/catalog), Phase 9 (lineage), and Phase 14 (compliance/risk mapping).
 
 | Example | File |
 | --- | --- |
@@ -137,10 +138,11 @@ A small **illustrative** layer shows how selected designs could be applied to **
 | Business glossary sample (15 terms) | [03-business-glossary-sample.md](assets/practical-evidence/03-business-glossary-sample.md) |
 | Metadata Management working pack | [08-metadata-catalog/working-pack/](08-metadata-catalog/working-pack/) |
 | Data Catalog & Lineage working pack | [09-data-lineage/working-pack/](09-data-lineage/working-pack/) |
+| Compliance & Risk working pack | [14-ndmo-alignment/working-pack/](14-ndmo-alignment/working-pack/) |
 | MDM golden record (patient identity) | [04-mdm-golden-record-example.md](assets/practical-evidence/04-mdm-golden-record-example.md) |
 | Conceptual lineage (registration → dashboard) | [05-lineage-example.md](assets/practical-evidence/05-lineage-example.md) |
 
-These examples are **not** operational evidence, **not** measured Rafid performance, and **not** NDMO compliance evidence.
+These examples are **not** operational evidence of a live organization, **not** measured Rafid performance, and **not** NDMO compliance evidence. The Phase 14 working pack may label selected repository working records as **Operational (project)**; that label does **not** change this organizational claim.
 
 ---
 
@@ -217,6 +219,7 @@ rafid-health-cluster-data-governance/
 ├── 12-kpis-maturity/
 ├── 13-implementation-roadmap/
 ├── 14-ndmo-alignment/
+│   └── working-pack/          # applied NDMO/PDPL mapping, evidence states, risk register
 ├── assets/
 │   └── practical-evidence/
 └── docs/

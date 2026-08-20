@@ -42,6 +42,8 @@ Official source used in this repository `[C]`:
 
 Organizational Manual and several NDMO regulations were **not retrieved**. Exact control/specification wording not already recorded in Phase 0–2 remains `[NDMO verification required]`.
 
+Applied working records (conceptual NDMO mapping of later artifacts, project evidence-state audit, PDPL governance considerations, governance risk register) live in [`working-pack/`](working-pack/). The working pack does **not** replace this phase. It does **not** claim NDMO or PDPL compliance. It does **not** change the organizational evidence lock below.
+
 ---
 
 ## Evidence states (locked)
@@ -80,6 +82,18 @@ DMC: *Governance escalation and decisions within the approved Phase 3 governance
 
 ---
 
+## Working pack (applied records)
+
+Locked Phase 14 files above are unchanged. Applied working records (conceptual artifact-to-domain mapping including later working packs, project evidence-state audit, PDPL governance considerations, verification and risk registers) live in:
+
+**[`working-pack/`](working-pack/)**
+
+The working pack does **not** replace this phase. It does **not** perform an NDMO assessment. It does **not** claim PDPL compliance. It does **not** change the organizational evidence lock (Designed = Yes; Operational = Not claimed; Measured = Not claimed). Project evidence states in the pack apply only to synthetic working records in this repository.
+
+It is synthetic / illustrative / non-production.
+
+---
+
 ## Files
 
 | Path | ID |
@@ -104,3 +118,4 @@ DMC: *Governance escalation and decisions within the approved Phase 3 governance
 | [18-assessment-readiness.md](18-assessment-readiness.md) | RHC-DG-P14-018 |
 | [19-interview-defensibility.md](19-interview-defensibility.md) | RHC-DG-P14-019 |
 | [20-ndmo-verification-points.md](20-ndmo-verification-points.md) | RHC-DG-P14-020 |
+| [working-pack/](working-pack/) | RHC-DG-P14-WP-* (applied Compliance & Risk working pack) |

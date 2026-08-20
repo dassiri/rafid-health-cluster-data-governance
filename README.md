@@ -99,7 +99,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | Data Lineage | Business/conceptual lineage and selective technical lineage, plus an applied [working pack](09-data-lineage/working-pack/) (register, examples, quality checks) |
 | Master Data Management | Master/reference/transaction model, golden record, matching, survivorship |
 | Data Lifecycle | Retention governance, archiving, disposal, legal holds |
-| KPIs & Maturity | KPI framework and five-level maturity model |
+| KPIs & Maturity | KPI framework and five-level maturity model, plus an applied [Reporting & Analytics working pack](12-kpis-maturity/working-pack/) (definition sheet, governance scorecard, dashboard structure) |
 | Implementation Roadmap | Illustrative three-year implementation roadmap |
 | NDMO Alignment | Domain mapping, evidence design, verification/gap register, plus an applied [Compliance & Risk working pack](14-ndmo-alignment/working-pack/) (project evidence states, PDPL governance considerations, governance risk register) |
 
@@ -121,7 +121,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | 9 | Data lineage — business/conceptual lineage, criticality, and one illustrative end-to-end example | [09-data-lineage](09-data-lineage/) |
 | 10 | Master data management — conceptual MDM; Patient and Provider primary; Facility supporting | [10-master-data-management](10-master-data-management/) |
 | 11 | Data lifecycle — Create→Dispose governance; no invented retention periods | [11-data-lifecycle](11-data-lifecycle/) |
-| 12 | KPIs and maturity — twelve executive KPIs and a five-level maturity model | [12-kpis-maturity](12-kpis-maturity/) |
+| 12 | KPIs and maturity — twelve executive KPIs and a five-level maturity model, plus an applied [Reporting & Analytics working pack](12-kpis-maturity/working-pack/) | [12-kpis-maturity](12-kpis-maturity/) |
 | 13 | Implementation roadmap — `[A]` illustrative three-year shape; not a live transformation plan | [13-implementation-roadmap](13-implementation-roadmap/) |
 | 14 | NDMO alignment and evidence — designed evidence pack plus applied [Compliance & Risk working pack](14-ndmo-alignment/working-pack/); final phase; not a compliance certification | [14-ndmo-alignment](14-ndmo-alignment/) |
 
@@ -129,7 +129,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 
 ## Practical Evidence `[A]`
 
-A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). Applied working packs sit under Phase 8 (metadata/catalog), Phase 9 (lineage), and Phase 14 (compliance/risk mapping).
+A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). Applied working packs sit under Phase 8 (metadata/catalog), Phase 9 (lineage), Phase 12 (reporting/analytics), and Phase 14 (compliance/risk mapping).
 
 | Example | File |
 | --- | --- |
@@ -138,6 +138,7 @@ A small **illustrative** layer shows how selected designs could be applied to **
 | Business glossary sample (15 terms) | [03-business-glossary-sample.md](assets/practical-evidence/03-business-glossary-sample.md) |
 | Metadata Management working pack | [08-metadata-catalog/working-pack/](08-metadata-catalog/working-pack/) |
 | Data Catalog & Lineage working pack | [09-data-lineage/working-pack/](09-data-lineage/working-pack/) |
+| Reporting & Analytics working pack | [12-kpis-maturity/working-pack/](12-kpis-maturity/working-pack/) |
 | Compliance & Risk working pack | [14-ndmo-alignment/working-pack/](14-ndmo-alignment/working-pack/) |
 | MDM golden record (patient identity) | [04-mdm-golden-record-example.md](assets/practical-evidence/04-mdm-golden-record-example.md) |
 | Conceptual lineage (registration → dashboard) | [05-lineage-example.md](assets/practical-evidence/05-lineage-example.md) |
@@ -217,6 +218,7 @@ rafid-health-cluster-data-governance/
 ├── 10-master-data-management/
 ├── 11-data-lifecycle/
 ├── 12-kpis-maturity/
+│   └── working-pack/          # applied KPI definitions, scorecard, dashboard, maturity guidance
 ├── 13-implementation-roadmap/
 ├── 14-ndmo-alignment/
 │   └── working-pack/          # applied NDMO/PDPL mapping, evidence states, risk register
@@ -234,7 +236,7 @@ rafid-health-cluster-data-governance/
 3. Review Phase 6 for the policy/standard/procedure architecture.
 4. Review Phase 7–11 for the core Data Management capabilities.
 5. Optionally open [`assets/practical-evidence/`](assets/practical-evidence/) for synthetic worked examples.
-6. Review Phase 12–13 for measurement and illustrative implementation planning.
+6. Review Phase 12–13 for measurement and illustrative implementation planning. Optionally open the [Reporting & Analytics working pack](12-kpis-maturity/working-pack/) for applied KPI definitions, the governance scorecard, and the conceptual dashboard structure.
 7. Finish with Phase 14 for NDMO alignment and designed evidence.
 
 Interview notes are **Internal Interview Preparation**, not policy. Start at [`docs/interview-preparation.md`](docs/interview-preparation.md).

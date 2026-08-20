@@ -140,6 +140,16 @@ Phase 13 is implemented as an `[A]` Illustrative Implementation Roadmap. It is d
 
 ---
 
+## Working pack (applied records)
+
+Locked Phase 12 files above are unchanged. Applied Reporting & Analytics working records (KPI definition sheet, evidence-source map, governance scorecard face, applied maturity characteristics, conceptual dashboard sections and governance, reporting workflow) live in:
+
+**[`working-pack/`](working-pack/)**
+
+The working pack does **not** replace this phase. It does **not** swap the locked twelve executive KPIs. It does **not** assign a Rafid maturity score. It does **not** claim live measurement or a Power BI deployment. It is synthetic / illustrative / non-production.
+
+---
+
 ## Files
 
 | Path | ID |
@@ -172,3 +182,4 @@ Phase 13 is implemented as an `[A]` Illustrative Implementation Roadmap. It is d
 | [26-governance-artifacts.md](26-governance-artifacts.md) | RHC-DG-P12-026 |
 | [27-interview-defensibility.md](27-interview-defensibility.md) | RHC-DG-P12-027 |
 | [28-ndmo-alignment.md](28-ndmo-alignment.md) | RHC-DG-P12-028 |
+| [working-pack/](working-pack/) | RHC-DG-P12-WP-* (applied Reporting & Analytics working pack) |

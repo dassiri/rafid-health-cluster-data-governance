@@ -90,7 +90,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | Area | Coverage |
 | --- | --- |
 | Governance Strategy | Vision, objectives, principles, scope, decision rights |
-| Operating Model | Roles, reporting lines, RACI, forums, escalation |
+| Operating Model | Roles, reporting lines, RACI, forums, escalation, plus an applied [Stakeholder Management working pack](03-operating-model/working-pack/) (role matrix, applied RACI, decision rights, forum register, escalation, decision flows) |
 | Ownership & Stewardship | Data Owners, Stewards, ownership lifecycle |
 | Data Classification | Four-tier Rafid classification proposal |
 | Policies & Standards | 1 Policy + 5 Standards + 6 Procedures |
@@ -112,7 +112,7 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 | 0 | Project definition — purpose, scope, and documentation boundaries | [01-project-foundation](01-project-foundation/) |
 | 1 | Organization and data landscape — fictional cluster profile and assumed data holdings | [01-project-foundation](01-project-foundation/) |
 | 2 | Governance strategy — vision, principles, scope, decision-right classes, and NDMO alignment approach | [02-governance-strategy](02-governance-strategy/) |
-| 3 | Operating model — federated-by-domain structure, roles, RACI, forums, and escalation | [03-operating-model](03-operating-model/) |
+| 3 | Operating model — federated-by-domain structure, roles, RACI, forums, and escalation, plus an applied [Stakeholder Management working pack](03-operating-model/working-pack/) | [03-operating-model](03-operating-model/) |
 | 4 | Ownership and stewardship — eight domains, one Data Owner each, and stewardship operating design | [04-ownership-stewardship](04-ownership-stewardship/) |
 | 5 | Data classification — Rafid Public / Internal / Confidential / Restricted proposal | [05-data-classification](05-data-classification/) |
 | 6 | Policies, standards, and procedures — 1 Policy + 5 Standards + 6 Procedures | [06-policies-standards-procedures](06-policies-standards-procedures/) |
@@ -129,13 +129,14 @@ The work product is **governed operating design** (strategy, RACI, policies, and
 
 ## Practical Evidence `[A]`
 
-A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). Applied working packs sit under Phase 8 (metadata/catalog), Phase 9 (lineage), Phase 12 (reporting/analytics), and Phase 14 (compliance/risk mapping).
+A small **illustrative** layer shows how selected designs could be applied to **synthetic** data. Recruiter-facing samples sit in [`assets/practical-evidence/`](assets/practical-evidence/). Applied working packs sit under Phase 3 (stakeholder management), Phase 8 (metadata/catalog), Phase 9 (lineage), Phase 12 (reporting/analytics), and Phase 14 (compliance/risk mapping).
 
 | Example | File |
 | --- | --- |
 | Data quality (sample → rules → issues → result) | [01-data-quality-example.md](assets/practical-evidence/01-data-quality-example.md) |
 | Catalog sample (15 assets) | [02-catalog-sample.md](assets/practical-evidence/02-catalog-sample.md) |
 | Business glossary sample (15 terms) | [03-business-glossary-sample.md](assets/practical-evidence/03-business-glossary-sample.md) |
+| Stakeholder Management working pack | [03-operating-model/working-pack/](03-operating-model/working-pack/) |
 | Metadata Management working pack | [08-metadata-catalog/working-pack/](08-metadata-catalog/working-pack/) |
 | Data Catalog & Lineage working pack | [09-data-lineage/working-pack/](09-data-lineage/working-pack/) |
 | Reporting & Analytics working pack | [12-kpis-maturity/working-pack/](12-kpis-maturity/working-pack/) |
@@ -207,6 +208,7 @@ rafid-health-cluster-data-governance/
 ├── 01-project-foundation/
 ├── 02-governance-strategy/
 ├── 03-operating-model/
+│   └── working-pack/          # applied stakeholder roles, RACI, decision rights, forums, escalation
 ├── 04-ownership-stewardship/
 ├── 05-data-classification/
 ├── 06-policies-standards-procedures/
@@ -232,7 +234,7 @@ rafid-health-cluster-data-governance/
 ## How to Use This Repository
 
 1. Start with Phase 0–2 for context and strategy.
-2. Review Phase 3–5 for governance structure, ownership, and classification.
+2. Review Phase 3–5 for governance structure, ownership, and classification. Optionally open the [Stakeholder Management working pack](03-operating-model/working-pack/) for applied roles, RACI, decision rights, forums, and escalation flows.
 3. Review Phase 6 for the policy/standard/procedure architecture.
 4. Review Phase 7–11 for the core Data Management capabilities.
 5. Optionally open [`assets/practical-evidence/`](assets/practical-evidence/) for synthetic worked examples.

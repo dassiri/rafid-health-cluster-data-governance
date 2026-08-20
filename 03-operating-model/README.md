@@ -75,12 +75,23 @@ NDMO names a Data Management Office, an Entity Data Management Committee, a Chie
 | [diagrams/org-reporting-lines.mmd](diagrams/org-reporting-lines.mmd) | Solid vs dotted reporting |
 | [diagrams/escalation-flow.mmd](diagrams/escalation-flow.mmd) | Escalation hierarchy |
 | [diagrams/forum-cadence.mmd](diagrams/forum-cadence.mmd) | Forum cadence |
+| [working-pack/](working-pack/) | Applied Stakeholder Management working pack (roles, RACI, decision rights, forums, escalation, flows) |
 
 ---
 
 ## Relationship to Phase 4
 
 Phase 3 defines **that** domain governance exists. Phase 4 documents the eight domains, one Owner per domain, stewards, and the domain decision RACI. See [`../04-ownership-stewardship/`](../04-ownership-stewardship/). This folder does not duplicate that map. Year-1 DMC standing membership in the role catalogue matches Phase 4 `[A]`.
+
+---
+
+## Working pack (applied records)
+
+Locked Phase 3 files above are unchanged. Applied Stakeholder Management working records (role matrix, accountability and communication matrices, applied RACI, decision-rights matrix, forum register, escalation model, decision-flow examples, federated operating-model application) live in:
+
+**[`working-pack/`](working-pack/)**
+
+The working pack does **not** replace this phase. It does **not** invent roles, forums, or DMC decision rights. It does **not** claim live appointments or meetings. It is synthetic / illustrative / non-production.
 
 ---
 

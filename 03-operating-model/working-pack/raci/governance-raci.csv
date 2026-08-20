@@ -1,0 +1,19 @@
+Activity_ID,Activity,Single_A,ESC,DMC,CDO,DGO,DO,BDS,CUST,PDPO,CO,LEG,ODIA,CON,Locked_Source,Notes
+DG-RACI-WP-001,Data Governance Framework (strategy),DMC,C,A,R,R,C,I,I,C,C,C,C,I,Phase 3 Governance strategy,DMC remains sole A for strategy.
+DG-RACI-WP-002,Data Policy approval (L3 / POL-001),DMC,C,A,R,R,C,I,C,C,C,C,C,I,Phase 3 Policy approval (L3),Standards that change Policy intent also require DMC A.
+DG-RACI-WP-003,Enterprise Standard approval (does not change Policy intent),CDO,I,C,A,R,C,C,C,I,I,I,I,I,Phase 6 document architecture,If the standard would change Policy intent use WP-002 (DMC A).
+DG-RACI-WP-004,Data Ownership assignment (Owner ratification),DMC,I,A,R,R,C,I,I,I,I,I,I,I,PRC-001,Proposed Owner is C and must concur. DMO is not business Owner.
+DG-RACI-WP-005,Data Classification (dataset application),DO,I,I,C,C,A,R,C,C,I,C,C,I,Phase 3 dataset classification; Phase 4 row 3; PRC-002,ODIA C when likely Public/open data. Owner approves the Rafid tier. IT does not pick the tier.
+DG-RACI-WP-006,Metadata registration (domain content),DO,I,I,I,C,A,R,C,C,I,I,I,I,Phase 4 row 8; PRC-004,PDPO C when personal/health identifying. DMO checks completeness; cannot rewrite meaning.
+DG-RACI-WP-007,Data Quality issue management,DO,I,I,I,C,A,R,R,I,I,I,I,C,Phase 3 issue row; Phase 4 row 9; PRC-003,CDO becomes additional R only after qualitative SLA-breach escalation — not a second A.
+DG-RACI-WP-008,Data Lineage registration (business meaning of a recorded flow),DO,I,I,I,C,A,R,C,I,I,I,I,I,Phase 9 working pack lineage ownership,Do not merge with WP-017 (programme A = CDO).
+DG-RACI-WP-009,Data Catalog governance (programme + content rules),CDO,I,I,A,R,C,R,R,I,I,I,I,I,Phase 3 catalog programme,Custodian R for the tool. Domain content approval remains WP-006 (Owner A).
+DG-RACI-WP-010,CDE management (confirm or decline CDE status),DO,I,I,I,C,A,R,C,C,I,I,I,I,Phase 7 CDE methodology,PDPO C when privacy/security impact. DMC I unless Owner non-participation or deadlock.
+DG-RACI-WP-011,MDM governance (master meaning / golden record / survivorship / match intent),DO,I,I,I,C,A,R,C,I,I,I,I,I,Phase 10 MDM ownership; Phase 4 RACI unchanged,DMC is not routine approver of every master entity. No new DMC class.
+DG-RACI-WP-012,Data Lifecycle decisions (domain application),DO,I,I,I,C,A,R,R,C,I,C,I,I,Phase 3 retention; Phase 4 row 10,Classification does not set retention duration. Periods are not invented.
+DG-RACI-WP-013,Governance KPI review / reporting,CDO,I,I,A,R,C,R,C,I,C,I,I,I,Phase 3 KPI reporting,DMC reviews the executive pack as an existing input. No new DMC class for KPI approval.
+DG-RACI-WP-014,Governance exceptions (to L3 policy),DMC,C,A,R,R,C,I,C,C,C,C,C,I,Phase 3 exceptions; PRC-006,Owner cannot self-approve out-of-policy access.
+DG-RACI-WP-015,NDMO evidence / alignment verification (self-assessment work),CDO,I,I,A,R,C,I,I,C,R,C,C,I,Phase 3 maturity/alignment self-assessment,Not an NDMO compliance claim. CO R for assessment work; CDO remains A.
+DG-RACI-WP-016,PDPL governance considerations — privacy compliance review of personal-data sharing,PDPO,I,I,C,C,C,C,I,A,I,C,I,I,Phase 4 row 7; PRC-005,Not a PDPL compliance claim. Phase 4 row 7 has no second R; PDPO is the single A. Business-sharing A remains Data Owner on a separate row.
+DG-RACI-WP-017,Data Lineage programme (method / registry / technical capture completeness),CDO,I,I,A,C,C,C,R,I,I,I,I,I,Phase 3 lineage programme,Preserves locked programme A. Business-meaning registration is WP-008.
+DG-RACI-WP-018,Time-boxed operational waiver inside an already approved Policy envelope,CDO,I,I,A,R,C,I,C,C,I,C,I,I,Phase 3 exception path; PRC-006,If the request is outside Policy use WP-014 (DMC A). DMC I at the next meeting.
